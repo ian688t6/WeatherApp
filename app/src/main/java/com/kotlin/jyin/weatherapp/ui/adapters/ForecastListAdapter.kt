@@ -1,4 +1,4 @@
-package adapters
+package com.kotlin.jyin.weatherapp.ui.adapters
 
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
