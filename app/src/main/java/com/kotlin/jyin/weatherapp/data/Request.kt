@@ -1,4 +1,4 @@
-package com.kotlin.jyin.weatherapp.ui.data
+package com.kotlin.jyin.weatherapp.data
 
 import android.util.Log
 import java.net.URL
