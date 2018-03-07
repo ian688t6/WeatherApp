@@ -6,11 +6,9 @@ import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import com.kotlin.jyin.weatherapp.R
-import com.kotlin.jyin.weatherapp.data.Request
 import com.kotlin.jyin.weatherapp.domain.commands.RequestForecastCommand
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.find
-import org.jetbrains.anko.longToast
 import org.jetbrains.anko.uiThread
 
 class MainActivity : AppCompatActivity() {
