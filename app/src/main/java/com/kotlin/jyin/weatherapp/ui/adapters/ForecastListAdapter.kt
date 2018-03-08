@@ -28,11 +28,6 @@ class ForecastListAdapter(private val weekForecast: ForecastList,
     }
 
     class ViewHolder(view: View, private val itemClick: (Forecast) ->Unit) :RecyclerView.ViewHolder(view) {
-//        private val iconView = view.find<ImageView>(R.id.icon)
-//        private val dateView = view.find<TextView>(R.id.date)
-//        private val descriptionView = view.find<TextView>(R.id.description)
-//        private val minTemperatureView = view.find<TextView>(R.id.minTemperature)
-//        private val maxTemperatureView = view.find<TextView>(R.id.maxTemperature)
 
         fun bindForecast(forecast: Forecast) {
             with(forecast) {
